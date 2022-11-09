@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family:  'Mulish', 'Kurale', 'Cormorant',sans-serif;
+    background-color: #382A20;;
+    
+    
+  }
+  
+  .nav{
+    background: #F9F4F0;
+    overflow: hidden;
+    height: 72px;
+    
+  }
+  
+  .nav a{
+    font-family: 'Cormorant';
+    float: right;
+  color: #948475;
+  text-align: center;
+  padding: 32px;
+  padding-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color .5s
+  
+  }
+  .nav a:hover{
+    color:#bc8157 !important;
+    text-decoration: underline;
+  }
+  
+  .nav button{
+  float: right;
+  color: #948475;
+  background-color: #F9F4F0;
+  border: none;
+  transition: color .5s;
+  cursor: pointer;
+  }
+  
+  .nav button:hover{
+    color:#bc8157 !important;
+    cursor: pointer;
+  }
+  
+  .panel {
+    background-color: #b97953;
+    width: 23vw;
+    height: calc(100vh - 3rem);
+    position: fixed;
+    right: 0;
+    display: none;
+    transition: 0.5s;
+  }
+  
+  .carrito {
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  .nav i{
+    float: right;
+    color: #948475;
+    text-align: center;
+    padding: 24px;
+    padding-left: 15px;
+    padding-top: 21px;
+    font-size: 29px;
+    transition: color .5s;
+    }
+    
+    .nav i:hover{
+      color:#bc8157 !important;
+    }
+  
+  #final{
+    margin-right: 80px;
+  }
+  
+  .logo{
+    position: absolute;
+    height:280px;
+  
+  left: 112px;
+  z-index: 100;
+  }
+  
+  .logo2{
+    padding-top: 10px;
+    padding-left: 78px;
+    width: 500px;
+  }

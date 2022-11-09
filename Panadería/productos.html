@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS-PanaderíaPedrín</title>
+
+    <link rel="icon" type="image/x-icon" href="favic0n.ico">
+    <script src="https://kit.fontawesome.com/5bcdbf40e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="productos.css">
+    <script>
+        const abrir_panel = () => {
+          const panel = document.querySelectorAll('.panel')[0].style;
+          panel.display = panel.display === 'none' ? 'block' : 'none';
+        }
+      </script>
+
+</head>
+<body>
+
+   
+ 
+    <div class="nav" >
+        <img src="PANADERIA PS.png" alt="letrapanpedrin" class="logo2">
+        <i class="fa-solid fa-user" id="final"></i>
+        <button class="carrito" onclick="abrir_panel()"><i class="fa-solid fa-basket-shopping"></i></button>
+        <a href="pedidosEspeciales.html" >Pedidos Especiales</a>
+        <a href="productos.html">Productos</a>
+        <a href="panaderia.html">Inicio</a>
+
+    </div>
+    <div class="panel"></div>
+
+<div class="cabeza">
+    <p id="prod"> PRODUCTOS </p>
+</div>
+
+<div class="boton">
+<button id="botones" >Nuevos Productos</button>
+<button id="botones" >Productos Populares</button>
+<button id="botones" >Panaderia Tradicional</button>
+<button id="botones" >Postres</button>
+<button id="botones" >Sin Alérgenos</button>
+</div>
+
+<br>
+<div class="productos">
+    <div id="tarjeta">
+        <img src="baguette.jpg" alt="">
+        <div id="titulo">
+            <h1>Baguettes</h1> <h2> 0,65€</h2>
+        </div>
+        <p>Nuestras baguettes son el producto más conocidos.
+            Disfruta del sabor más aútentico con la receta tradicional
+            del abuelo Pedrín
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta"> 
+        <img src="bolloleche.jpeg" alt="">
+        <div id="titulo">
+            <h1>Bollo de Leche</h1> <h2> 0,12€/unidad</h2>
+        </div>
+        <p>
+            Nuestros exquisitos bollos de leche son ideales
+            para que los más pequeños de la casa disfruten
+            de una merienda rica y saludable
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="panmantequilla.jpeg" alt="">
+        <div id="titulo">
+            <h1>Pan de Mantequilla</h1>
+             <h2> 0,75€</h2>
+        </div>
+        <p>
+            Nuestros exquisitos bollos de leche son ideales
+            para que los más pequeños de la casa disfruten
+            de una merienda rica y saludable
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="w700_pan_de_maiz.jfif" alt="">
+        <div id="titulo">
+            <h1>Pan de Maíz</h1>
+             <h2> 1.25€</h2>
+        </div>
+        <p>
+            El pan de maíz es una de las novedades en el repertorio
+            de sabores del abuelo Pedrín. <br>
+            Crado con aceite vegetal de la zona y con harina refinada
+            de auténtico trigo orgánico.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="pancolon.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan Colón</h1>
+             <h2> 0.60€</h2>
+        </div>
+        <p>
+          El famoso "Pan Colón" proviene de una de las recetas más antiguas
+          en el recetario de nuestra panadería.<BR>
+          Es una apuesta segura para merienda de los jovenes y un buen
+          almuerzo para llevar al trabajo.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="panintegral.JPG" alt="">
+        <div id="titulo">
+            <h1>Pan con Semillas</h1>
+             <h2> 0.90€</h2>
+        </div>
+        <p>
+          Nuestro pan de semilla está pensado para gustar
+          hasta a los más quisquillosos. <BR>
+          Contiene semillas de sésamo, girasol y chía que aportan un sabor
+          único.
+        </p>
+        <button>Comprar</button>
+    </div>
+</div>
+</body>
+</html>
