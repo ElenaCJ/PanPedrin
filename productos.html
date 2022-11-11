@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS-PanaderíaPedrín</title>
+
+    <link rel="icon" type="image/x-icon" href="favic0n.ico">
+    <script src="https://kit.fontawesome.com/5bcdbf40e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="productos.css">
+    <script>
+        const abrir_panel = () => {
+          const panel = document.querySelectorAll('.panel')[0].style;
+          panel.display = panel.display === 'none' ? 'block' : 'none';
+        }
+      </script>
+
+</head>
+<body>
+
+   
+ 
+    <div class="nav" >
+        <img src="PANADERIA PS.png" alt="letrapanpedrin" class="logo2">
+        <i class="fa-solid fa-user" id="final"></i>
+        <button class="carrito" onclick="abrir_panel()"><i class="fa-solid fa-basket-shopping"></i></button>
+        <a href="pedidosEspeciales.html" >Pedidos Especiales</a>
+        <a href="productos.html">Productos</a>
+        <a href="panaderia.html">Inicio</a>
+
+    </div>
+    <div class="panel">
+        <h1>Cesta de Compra</h1>
+        <div class="compra"></div>
+        <form class="botonpanel" action="cesta.html">
+            <input id="botones" type="submit" value="Visualizar Pedido">
+        </form>
+    </div>
+
+<div class="cabeza">
+    <p id="prod"> PRODUCTOS </p>
+</div>
+
+<div class="boton">
+<button id="botones" >Nuevos Productos</button>
+<button id="botones" >Productos Populares</button>
+<button id="botones" >Panaderia Tradicional</button>
+<button id="botones" >Postres</button>
+<button id="botones" >Sin Alérgenos</button>
+</div>
+
+<br>
+<div class="productos">
+    <div id="tarjeta">
+        <img src="baguette.jpg" alt="">
+        <div id="titulo">
+            <h1>Baguettes</h1> <h2> 0,65€</h2>
+        </div>
+        <p>Nuestras baguettes son el producto más conocidos.
+            Disfruta del sabor más aútentico con la receta tradicional
+            del abuelo Pedrín
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta"> 
+        <img src="bolloleche.jpeg" alt="">
+        <div id="titulo">
+            <h1>Bollo de Leche</h1> 
+            <h2>1.10€/pack de 10
+                <br>
+             <span style="font-size: medium;"> 0,12€/unidad </span>
+            </h2>
+        </div>
+        <p>
+            Estos bollos de leche son ideales
+            para que los más pequeños de la casa disfruten
+            de una merienda rica y saludable
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="panmantequilla.jpeg" alt="">
+        <div id="titulo">
+            <h1>Pan de Mantequilla</h1>
+             <h2> 0,75€</h2>
+        </div>
+        <p>
+            El pan de mantequilla es, sin duda, la creación favorita
+            del abuelo Pedrín. Este dulce pan esta listo para servirse
+            como desayuno o merienda
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="w700_pan_de_maiz.jfif" alt="">
+        <div id="titulo">
+            <h1>Pan de Maíz</h1>
+             <h2> 1.25€</h2>
+        </div>
+        <p>
+            El pan de maíz es una de las novedades en el repertorio
+            de sabores del abuelo Pedrín. <br>
+            Crado con aceite vegetal de la zona y con harina refinada
+            de auténtico trigo orgánico.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="pancolon.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan Colón</h1>
+             <h2> 0.60€</h2>
+        </div>
+        <p>
+          El famoso "Pan Colón" proviene de una de las recetas más antiguas
+          en el recetario de nuestra panadería.<BR>
+          Es una apuesta segura para merienda de los jovenes y un buen
+          almuerzo para llevar al trabajo.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="panintegral.JPG" alt="">
+        <div id="titulo">
+            <h1>Pan con Semillas</h1>
+             <h2> 0.90€</h2>
+        </div>
+        <p>
+          Nuestro pan de semilla está pensado para gustar
+          hasta a los más quisquillosos. <BR>
+          Contiene semillas de sésamo, girasol y chía que aportan un sabor
+          único.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/pan-de-ciabatta.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan de Chapata</h1>
+             <h2> 0,55€</h2>
+        </div>
+        <p>
+            El panecillo más comodo para la gente que le gusta el pan pero no tiene
+            con quien compartirlo. Fabricado únicamente con nuestra masa madre.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/pan-de-centeno-500x375.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan de Centeno</h1>
+             <h2> 1.25€</h2>
+        </div>
+        <p>
+           El pan de centeno fue la primera receta de pan conocida en el mundo.<br> Acabará siendo sin duda tu favorita.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/espelta.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan de Espelta</h1>
+             <h2> 0,95€</h2>
+        </div>
+        <p>
+           Para los amantes de lo tradicional y la cerveza, este pan resultará siendo
+           un placer innaudito para todos los apasionados del buen beber.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/panqueso.jpg" alt="">
+        <div id="titulo">
+            <h1>Pan de Queso Philadelphia</h1>
+             <h2>1€/pack de 6
+                <span style="font-size: medium;"> 0,20€/unidad </span>
+            </h2>
+        </div>
+        <p>
+            No hay nada como un capricho dulce que a la vez sirva para una merienda 
+            saludable y original en cualquier evento.
+        </p>
+        <button>Comprar</button>
+    </div>
+
+    <div id="tarjeta">
+        <img src="productos/molleteAndaluz.jpg" alt="">
+        <div id="titulo">
+            <h1>Mollete Andaluz</h1>
+             <h2>  1€/pack de 12  <span style="font-size: medium;"> 0,09€/unidad </span></h2>
+        </div>
+        <p>
+            El desayuno mediterraneo al alcanze de cualquier bolsillo. <br>
+            Convina estos deliciosos mini panes con buen jamón
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/berlinacrema.jpg" alt="">
+        <div id="titulo">
+            <h1>Berlina de Crema</h1>
+             <h2>   2.20€/pack de 12   <span style="font-size: medium;"> 0,20€/unidad </span></h2>
+        </div>
+        <p>
+           Nunca antes has provado las clásicas berlinas de crema de la manera que
+           lo preparamos en Panadería Pedrín. ¡Jugosas y muy muy cremosas!
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/Manzana.webp" alt="">
+        <div id="titulo">
+            <h1>Cresta de Manzana</h1>
+             <h2> 2.20€/pack de 12 <span style="font-size: medium;"> 0,22€/unidad </span></h2>
+        </div>
+        <p>
+            La abuelíta Manoli dejó en herencia al mundo su impresionante receta de
+            crestas de manzana. <br>
+            Calientalas en el microondas por 30 segundos y espolvorea canela al gusto
+            para sentirte como en la casa de tus abuelos.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/curasanes.jpg" alt="">
+        <div id="titulo">
+            <h1>Cruasanes de Mantequilla</h1>
+             <h2>  1.25€/pack de 5     <span style="font-size: medium;"> 0,3€/unidad </span></h2>
+        </div>
+        <p>
+            ¿Existe una mejor manera de empezar el día que no sea con un tierno cruasán?
+            <br> ¡Redescubre el antiguo placer del clásico dulce francés por un precio
+            escandalosamente bueno!
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/croissant-de-chocolate.jpg" alt="">
+        <div id="titulo">
+            <h1>Cruasanes de Chocolate</h1>
+            <h2>  1.50€/pack de 5     <span style="font-size: medium;"> 0,35€/unidad </span></h2>
+        </div>
+        <p>
+            Para aquellos más golosos, tenemos disponible la chocolatada
+            versión de uno de los clásicos de la panadería Pedrin.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/Trenza_jamon_queso.jpg.webp" alt="">
+        <div id="titulo">
+            <h1>Trenza de Hojaldre y Jamon York</h1>
+            <h2>  1.25€/pack de 5     <span style="font-size: medium;"> 0,3€/unidad </span></h2>
+        </div>
+        <p>
+           Una trenza en la mochila nos promete una tripa llena sin ensuciar sartenes
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/new york cheesecake (7).JPG" alt="">
+        <div id="titulo">
+            <h1>Tarta de Queso Americana</h1>
+             <h2> 10€
+                <br>
+                (1.25€/porción)
+             </h2>
+        </div>
+        <p>
+          La tarta de queso americana tiene un corazón poco cuajado y muy muy cremoso.
+        </p>
+        <button>Comprar</button>
+    </div>
+    <div id="tarjeta">
+        <img src="productos/redvelvet.jpg" alt="">
+        <div id="titulo">
+            <h1>Tarta Red Velvet</h1>
+             <h2> 11.20€
+                <br>
+                (1.40€/porción)
+             </h2>
+        </div>
+        <p>
+            Bizcocho de chocolate con cobertura aterciopelada en el paladar
+            de queso crema.
+        </p>
+        <button>Comprar</button>
+    </div>
+ 
+   
+</div>
+<div class="footer">
+    <div class="grid-item3">Informacion</div>
+    <div class="grid-item3">Contacta con nosotros:</div>
+    <div class="grid-item3">¡Siguenos!</div>
+   
+    <div class="grid-item2"><p>¿Quienes somos? <br> Politica de Privacidad <br><a href="#">Politica de cookies</a> <br> Reclamaciones</p></div>
+    <div class="grid-item2"> <br><span style="font-size: 33px"> 9536977548</span></div>
+    <div class="grid-item2"><p>_.PanPedrin._<br> Pedrin.Pan<br> PedrinPan_Madrid</p></div>
+  
+</div>
+</body>
+</html>

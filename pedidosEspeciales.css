@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family:  'Kurale', 'Cormorant', sans-serif;
+  background-color:#363330;
+
+
+}
+
+.nav{
+  background: #F9F4F0;
+  overflow: hidden;
+  height: 72px;
+  
+}
+
+.nav a{
+  font-family: 'Cormorant';
+  float: right;
+color: #948475;
+text-align: center;
+padding: 32px;
+padding-top: 25px;
+text-decoration: none;
+font-size: 20px;
+transition: color .5s
+
+}
+.nav a:hover{
+  color:#bc8157 !important;
+  text-decoration: underline;
+}
+
+.nav button{
+float: right;
+color: #948475;
+background-color: #F9F4F0;
+border: none;
+transition: color .5s;
+cursor: pointer;
+}
+
+.nav button:hover{
+  color:#bc8157 !important;
+  cursor: pointer;
+}
+
+.panel {
+  background-color: #F9F4F0;
+  width: 20vw;
+  height: calc(100vh - 3rem);
+  position: fixed;
+  right: 0;
+  display: none;
+  transition: 0.5s;
+}
+.panel h1{
+text-align: center;
+font-family: 'Kurale';
+font-size: 22px;
+color: #b87952;
+text-decoration: underline;
+}
+
+.botonpanel{
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-left: 4em;
+  margin-right: 4em;
+
+}
+
+.botonpanel #botones{
+  border-radius: 20px;
+  background-color: #f3e7e0;
+  color: #363330;
+  padding: 1em;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Mulish';
+
+  -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.botonpanel #botones:hover {
+    background-color: #b87952; 
+    color: white;
+}
+
+.carrito {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  font-size: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.nav i{
+  float: right;
+  color: #948475;
+  text-align: center;
+  padding: 24px;
+  padding-left: 15px;
+  padding-top: 21px;
+  font-size: 29px;
+  transition: color .5s;
+  }
+  
+  .nav i:hover{
+    color:#bc8157 !important;
+  }
+
+#final{
+  margin-right: 80px;
+}
+
+
+.logo2 {
+  padding-top: 10px;
+  padding-left: 78px;
+  width: 500px;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  color: #F6ECDF;
+font-weight: lighter;
+  
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #F6ECDF;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(246, 236, 223, 0), rgba(246, 236, 223, 1), rgba(246, 236, 223, 0));
+  margin-bottom: -5px;
+}
+
+
+
+
+form { 
+  margin-left: 4em;
+  margin-right: 4em;
+  border: 3px solid #F6ECDF;
+  border-radius: 40px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+label{
+  color:#F6ECDF;
+  text-align: center;
+  align-self: center;
+  font-size: 20px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 1fr 8rem;
+  gap: 0rem 5rem;
+  grid-template-areas:
+  "Descripcion Descripcion"
+  "Cantidad Alergenos"
+  "Fecha Hora";
+  height: auto;
+  margin: 1em;
+}
+
+input{
+  align-self: center;
+  width: 100%;
+  background-color: #363330;
+  color: #F6ECDF;
+  height: 2em;
+  margin: 10px 0px;
+  display: inline-block;
+  border: 1px solid #F6ECDF;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+
+.Descripcion { grid-area: Descripcion;
+  padding: 1em;
+  align-items: center;
+}
+
+
+.Descripcion input{
+  width: 90%;
+  padding: 50px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #F6ECDF;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+
+.Cantidad { 
+grid-area: Cantidad; 
+display: grid; 
+grid-template-columns: 45% 55% ;
+grid-template-rows: 1fr; 
+grid-template-areas: 
+  "texto input"; 
+  margin-left: 4em;
+}
+
+.Cantidad label{
+  padding-right: 2em;
+}
+
+.Alergenos {
+   grid-area: Alergenos;
+display: grid; 
+grid-template-columns: 45% 55% ;
+grid-template-areas: 
+  "texto input"; 
+  margin-right: 8em;
+  }
+
+.Alergenos label{
+  padding-right: 1em;
+}
+
+.Fecha { 
+  grid-area: Fecha; 
+  display: grid; 
+  grid-template-columns: 45% 55% ;
+  grid-template-rows: 1fr; 
+  grid-template-areas: 
+    "texto input"; 
+    margin-left: 4em;
+    height: min-content;
+  }
+
+.Fecha label{
+  padding-right: 1em;
+}
+
+.Hora {
+   grid-area: Hora;
+   display: grid; 
+   grid-template-columns: 45% 55% ;
+   grid-template-rows: 1fr; 
+   grid-template-areas: 
+     "texto input"; 
+     margin-right: 8em;
+     height: min-content;
+      }
+
+      .Hora label{
+        padding-right: 1em;
+      }
+
+
+      .boton{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 25em;
+        margin-right: 25em;
+      
+      }
+      
+      .boton #botones{
+        border-radius: 20px;
+        background-color: #F6ECDF;
+        color: #212835;
+        text-align: center;
+        margin: 1em;
+        padding: 20px 5px;
+        grid-template-columns: 70% 30%;
+        font-size: 22px;
+        font-family: 'Kurale';
+        display: grid;
+      
+        -webkit-transition-duration: 0.4s; 
+          transition-duration: 0.4s;
+      }
+      .boton #botones:hover {
+          background-color: #b87952; 
+          color: white;
+      }
+      
+      .boton #botones p{
+        text-transform: uppercase;
+        margin: auto;
+      }
+      
+      .boton #botones img{
+        width: 50%;
+        margin: auto;
+      }
+      
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Mulish';
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #F6ECDF;
+  margin-top: 2em;
+ 
+}
+
+.grid-item2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  
+  color: #382A20;
+  -webkit-animation: scale-in-ver-top 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: scale-in-ver-top 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  .grid-item3{
+    font-family: 'Kurale';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #121314;
+    }
+  
+  .grid-item2 a{
+      font-family: 'mulish';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 33px;
+      text-align: center;
+      transition: color .5s;
+      
+      color: #121314;
+      }
+    
+      
+  .grid-item2 a :hover{
+    color:#bc8157 !important;
+    text-decoration: underline;
+    }
+  
+  .grid-item #nombre{
+  
+  font-family: 'Kurale';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  
+  
+  color: #F6ECDF;
+  }

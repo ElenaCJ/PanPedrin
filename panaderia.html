@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-PanaderiaPedrin</title>
+    <link rel="icon" type="image/x-icon" href="favic0n.ico">
+    <script src="https://kit.fontawesome.com/5bcdbf40e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="panaderia.css">
+    <script>
+        const abrir_panel = () => {
+          const panel = document.querySelectorAll('.panel')[0].style;
+          panel.display = panel.display === 'none' ? 'block' : 'none';
+        }
+      </script>
+
+</head>
+<body>
+
+
+ 
+    <div class="nav" >
+        <img src="PANADERIA PS.png" alt="letrapanpedrin" class="logo2">
+        <i class="fa-solid fa-user" id="final"></i>
+        <button class="carrito" onclick="abrir_panel()"><i class="fa-solid fa-basket-shopping"></i></button>
+        <a href="pedidosEspeciales.html" >Pedidos Especiales</a>
+        <a href="productos.html">Productos</a>
+        <a href="panaderia.html">Inicio</a>
+
+    </div>
+    <div class="panel">
+        <h1>Cesta de Compra</h1>
+        <div class="compra"></div>
+        <form class="botonpanel" action="cesta.html">
+            <input id="botones" type="submit" value="Visualizar Pedido">
+        </form>
+    </div>
+
+
+    <img src="banner.png" alt="logodepanpedrin" class="logo">
+    <div class="cabeza">
+        <p id="cabecera">“ EL PAN ARTESANO HECHO<br> CON <span style="font-style: italic">MASA MADRE ”</span></p>
+        <p id="croqueta">ABIERTOS DESDE<span style="font-size: 29px;"> 2005</span></p>    
+    </div>
+    
+    <div class="promo">
+        <p> AUTÉNTICA <br>
+            MASA MADRE</p>
+       <p>ENVIOS EN  <br>MENOS DE 24H</p> 
+        <p>MEJOR PRECIO <br>
+            GARANTIZADO</p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item2">Enriquecido con <br> <span style="color:#B0673C
+            "> tiempo y cariño.</span><br> 
+            Siguiendo la receta <br> del abuelo Pedrín</div>
+
+         <div class="grid-item2">Nos tomamos nuestro <br>
+            tiempo para hacer pan.<br> 
+             Pero llegará a tu mesa <br> <span style="color:#B0673C
+            "> sin demora</span>
+            </div>
+
+            <div class="grid-item2">Con los ingredientes <br> de la  <span style="color:#B0673C
+                "> mejor calidad <br>local al alcance</span> de <br> 
+                cualquier bolsillo</div>
+    </div>
+    <div class="imgDes">
+    <img src="pan.png" alt="barra">
+    <img src="pann.png" alt="bollo">
+    <img src="pannn.png" alt="curasan">
+    </div>
+   
+    <div class="valora"><h1>NUESTRAS VALORACIONES NOS PRECEDEN</h1>
+        <br>
+        <hr>
+        <div class="grid-container">
+            <div class="grid-item">“La mejor miga que he <br> probado nunca, es imposible <br> imaginar un sabor mejor”<p id="nombre">Jordi Hurtado </p></div>
+            <div class="grid-item">“De corteza dura pero<br>corazón esponjoso, un buen <br>reflejo de sus panaderos”<p id="nombre">Esthér Garrido </p></div>
+            <div class="grid-item">“Nadie duda de que son<br>expertos en hacer<br> panes de gran calidad”<p id="nombre">Tania Moreno</p></div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">“Cada bocado es <br>mejor que el anterior”<p id="nombre">Belén Esteban</p></div>
+            <div class="grid-item">“Nadie merece perderse<br>la ocasión de probarlos”<p id="nombre">Sebastián Basto</p></div>
+            <div class="grid-item">“El mismo sabor y mismo <br>cariño que hace 20 años”<p id="nombre">Renato Sueco</p></div>
+          </div>
+          <hr>
+          <h5><a>Mostrar más comentarios <span style="font-size:35px">></span></a></h5>
+    </div>
+   
+    <div class="footer">
+        <div class="grid-item3">Informacion</div>
+        <div class="grid-item3">Contacta con nosotros:</div>
+        <div class="grid-item3">¡Siguenos!</div>
+       
+        <div class="grid-item2"><p><a href="politicas.html">¿Quienes somos?</a> <br> <a href="politicas.html">Politica de Privacidad</a>  <br><a href="politicas.html">Politica de cookies</a> <br><a href="politicas.html">Reclamaciones</a> </p></div>
+        <div class="grid-item2"> <br><span style="font-size: 33px"> 9536977548</span></div>
+        <div class="grid-item2"><p>_.PanPedrin._<br> Pedrin.Pan<br> PedrinPan_Madrid</p></div>
+      
+    </div>
+   
+</body>
+</html>
