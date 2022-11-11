@@ -386,6 +386,7 @@ text-decoration: underline;
   }
 
   .footer{
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Mulish';

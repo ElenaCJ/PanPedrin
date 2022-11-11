@@ -65,12 +65,8 @@ text-decoration: underline;
   grid-template-columns: 1fr ;
   margin-left: 4em;
   margin-right: 4em;
+}
 
-}
-.botonpanel a{
-  color: #393939;
-  text-decoration: none;
-}
 
 .botonpanel #botones{
   border-radius: 20px;
@@ -80,6 +76,7 @@ text-decoration: underline;
   text-align: center;
   font-size: 15px;
   font-family: 'Mulish';
+  margin-top: 33em;
 
   -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
@@ -133,7 +130,7 @@ z-index: 100;
 
 .cabeza{
   height: 39rem;
-  background-image:url(fondito.jpg);
+  background-image:url(utiles/fondito.jpg);
   filter: brightness(75%);
   filter: blur(40%);
   justify-content: center;

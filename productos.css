@@ -130,7 +130,7 @@ z-index: 100;
 
 .cabeza{
   height: 17rem;
-  background-image:url(Harina.png);
+  background-image:url(utiles/Harina.png);
   background-size:cover;
   display: flex;
   margin:auto;
