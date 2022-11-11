@@ -69,7 +69,7 @@ text-decoration: underline;
 
 }
 
-.botonpanel #botones{
+.botonpanel #boton{
   border-radius: 20px;
   background-color: #f3e7e0;
   color: #363330;
@@ -81,11 +81,10 @@ text-decoration: underline;
   -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
-.botonpanel #botones:hover {
+.botonpanel #boton:hover {
     background-color: #b87952; 
     color: white;
 }
-
 .carrito {
   width: 8rem;
   height: 3rem;
@@ -113,8 +112,15 @@ text-decoration: underline;
   margin-right: 80px;
 }
 
+.logo{
+  position: absolute;
+  height:280px;
 
-.logo2 {
+left: 112px;
+z-index: 100;
+}
+
+.logo2{
   padding-top: 10px;
   padding-left: 78px;
   width: 500px;
@@ -186,7 +192,7 @@ label{
   margin: 1em;
 }
 
-input{
+.grid input{
   align-self: center;
   width: 100%;
   background-color: #363330;

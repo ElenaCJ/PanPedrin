@@ -52,6 +52,7 @@ cursor: pointer;
   right: 0;
   display: none;
   transition: 0.5s;
+  z-index: 100;
 }
 .panel h1{
 text-align: center;
